@@ -1,0 +1,15 @@
+# Node.js
+node_modules/
+package-lock.json
+
+# Angular build
+dist/
+.angular/
+
+# IDEs / Editors
+.vscode/
+.vs/
+.DS_Store
+
+# GitHub Pages cache
+frontend/frontend/node_modules/.cache/

@@ -1,0 +1,29 @@
+<div class="history-wrapper">
+  <div class="history-card">
+    <h2>History</h2>
+
+    <div class="top-controls">
+      <input type="number" [(ngModel)]="n" placeholder="Enter count" />
+      <button (click)="getNHistory()">Show</button>
+    </div>
+
+    <div class="table-container">
+      <table>
+        <thead>
+          <tr>
+            <th>Id</th>
+            <th>Operation</th>
+            <th>Operand</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr *ngFor="let op of operationhistory">
+            <td>{{ op.id }}</td>
+            <td>{{ op.name }}</td>
+            <td>{{ op.number }}</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+</div>
