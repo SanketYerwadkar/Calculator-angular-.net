@@ -1,0 +1,16 @@
+.mainbody {
+  min-height: 100vh;
+  background: linear-gradient(135deg, #cfd8e3, #e5ebf0);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 3rem 1rem;
+}
+
+.brand-title {
+  font-size: 2rem;
+  font-weight: 600;
+  color: #222;
+  margin-bottom: 2rem;
+  text-shadow: 2px 2px 4px #bbb;
+}
